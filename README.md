@@ -1,12 +1,13 @@
 # finmarketpy
 
 finmarketpy is a Python based library that enables you to analyze market data and also to backtest trading strategies using
-a simple to use API.
+a simple to use API, which has prebuilt templates for you to define backtest.
 
 I had previously written the open source PyThalesians financial library. This new finmarketpy library has similar functionality to the 
 trading part of that library. However, I've totally rewritten the API to make it much cleaner and easier to use, as well as having many 
 new features. It requires the libraries chartpy (for charts) and findatapy (for loading market data) to function.
 
+Points to note:
 * Please bear in mind at present finmarketpy is currently a highly experimental alpha project and isn't yet fully 
 documented
 * Uses Apache 2.0 licence
@@ -41,9 +42,9 @@ pip install git+https://github.com/cuemacro/chartpy.git
 pip install git+https://github.com/cuemacro/findatapy.git
 ```
 
-# findatapy examples
+# finmarketpy examples
 
-In findatapy/examples you will find several demos
+In finmarketpy/examples you will find several examples, including some simple trading models
 
 # Release Notes
 
