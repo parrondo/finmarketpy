@@ -14,6 +14,9 @@ I had previously written the open source PyThalesians financial library. This ne
 trading part of that library. However, I've totally rewritten the API to make it much cleaner and easier to use, as well as having many 
 new features. It requires the libraries, which I've written chartpy (for charts) and findatapy (for loading market data) to function.
 
+* Using findatapy, you can download market data easily from Bloomberg, Quandl, Yahoo etc
+* Using chartpy, you can choose to have results displayed in matplotlib, plotly or bokeh by changing single keyword!
+
 Points to note:
 * Please bear in mind at present finmarketpy is currently a highly experimental alpha project and isn't yet fully 
 documented
@@ -23,15 +26,15 @@ documented
 
 Calculate the cumulative returns of a trading strategy historically (see examples/tradingmodelfxtrend_example.py)
 
-<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-cumulative.png?raw=true" width="543"/>
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-cumulative.png?raw=true" width="750"/>
 
 Plot the leverage of the strategy over time
 
-<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-leverage.png?raw=true" width="543"/>
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-leverage.png?raw=true" width="750"/>
 
 Plot the individual trade returns
 
-<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-trade-returns.png?raw=true" width="543"/>
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-trade-returns.png?raw=true" width="750"/>
 
 # Requirements
 
