@@ -1,11 +1,18 @@
 # finmarketpy
 
 finmarketpy is a Python based library that enables you to analyze market data and also to backtest trading strategies using
-a simple to use API, which has prebuilt templates for you to define backtest.
+a simple to use API, which has prebuilt templates for you to define backtest. Included in the library
+
+* Prebuilt templates for backtesting trading strategies
+* Display historical returns for trading strategies
+* Investigate seasonality of trading strategies
+* Conduct market event studies around data events
+* In built calculator for risk weighting using volatility targeting
+* Written in object orientated way to make code more reusable
 
 I had previously written the open source PyThalesians financial library. This new finmarketpy library has similar functionality to the 
 trading part of that library. However, I've totally rewritten the API to make it much cleaner and easier to use, as well as having many 
-new features. It requires the libraries chartpy (for charts) and findatapy (for loading market data) to function.
+new features. It requires the libraries, which I've written chartpy (for charts) and findatapy (for loading market data) to function.
 
 Points to note:
 * Please bear in mind at present finmarketpy is currently a highly experimental alpha project and isn't yet fully 
@@ -14,7 +21,17 @@ documented
 
 # Gallery
 
-To appear
+Calculate the cumulative returns of a trading strategy historically (see examples/tradingmodelfxtrend_example.py)
+
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-trade-returns.png?raw=true" width="543"/>
+
+Plot the leverage of the strategy over time
+
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-leverage.png?raw=true" width="543"/>
+
+Plot the individual trade returns
+
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-leverage.png?raw=true" width="543"/>
 
 # Requirements
 
