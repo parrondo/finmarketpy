@@ -23,7 +23,7 @@ documented
 
 Calculate the cumulative returns of a trading strategy historically (see examples/tradingmodelfxtrend_example.py)
 
-<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-trade-returns.png?raw=true" width="543"/>
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-cumulative.png?raw=true" width="543"/>
 
 Plot the leverage of the strategy over time
 
@@ -31,7 +31,7 @@ Plot the leverage of the strategy over time
 
 Plot the individual trade returns
 
-<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-leverage.png?raw=true" width="543"/>
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-trade-returns.png?raw=true" width="543"/>
 
 # Requirements
 
