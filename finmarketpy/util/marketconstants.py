@@ -22,3 +22,13 @@ Has various constants required for the finmarketpy project. These have been defi
 class MarketConstants(object):
 
     hdf5_file_econ_file = "x"
+
+    # or we can store credentials in a file "chartcred.py" in the same folder, which will overwrite the above
+
+    try:
+        import finmarketpy.util.marketcred as cred
+
+        hdf5_file_econ_file = cred.hdf5_file_econ_file
+
+    except:
+        pass

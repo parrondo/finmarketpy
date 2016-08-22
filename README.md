@@ -72,6 +72,7 @@ In finmarketpy/examples you will find several examples, including some simple tr
 
 # Coding log
 
+* 22 Aug 2016 - Fixed boot issue and added credentials
 * 17 Aug 2016 - Uploaded first code
 
 End of note
