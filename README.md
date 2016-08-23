@@ -36,6 +36,11 @@ Plot the individual trade returns
 
 <img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-trade-returns.png?raw=true" width="750"/>
 
+Seasonality of gold (see examples/seasonality_examples.py)
+
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/gold-seasonality.png?raw=true" width="750"/>
+
+
 # Requirements
 
 Major requirements
