@@ -36,9 +36,11 @@ Plot the individual trade returns
 
 <img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-trend-trade-returns.png?raw=true" width="750"/>
 
-Calculate seasonality of any asset: here we show gold's seasonality (see examples/seasonality_examples.py)
+Calculate seasonality of any asset: here we show gold and FX volatility seasonality (see examples/seasonality_examples.py)
 
 <img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/gold-seasonality.png?raw=true" width="750"/>
+
+<img src="https://github.com/cuemacro/finmarketpy/blob/master/finmarketpy/examples/gallery/fx-vol-seasonality.png?raw=true" width="750"/>
 
 
 # Requirements
@@ -77,6 +79,7 @@ In finmarketpy/examples you will find several examples, including some simple tr
 
 # Coding log
 
+* 01 Sep 2016 - Added seasonality example for FX vol
 * 22 Aug 2016 - Fixed boot issue and added credentials
 * 17 Aug 2016 - Uploaded first code
 
